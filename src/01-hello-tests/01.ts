@@ -7,5 +7,5 @@ export function mult(a: number, b: number) {
 }
 
 export function splitIntoWords(sentense: string) {
-    return ['Hello', 'my', 'friend']
+    return sentense.split(' ')
 }
