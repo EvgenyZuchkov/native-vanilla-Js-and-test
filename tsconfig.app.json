@@ -22,5 +22,8 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "node_modules/.pnpm/vitest@4.1.10_@types+node@2_ee20a27b20b53a0e515cc1f1caa92518/node_modules/vitest/globals.d.ts"
+  ]
 }
